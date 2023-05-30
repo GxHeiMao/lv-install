@@ -24,9 +24,10 @@ cd lv-install-main && unzip -d service service.zip && cd service && chmod 777 np
 cd ../../ && rm -rf main.zip && rm -rf lv-install-main
 ;;
 3)
+read -p " 请输入客户端绑定命令:" m
 wget https://github.com/GxHeiMao/lv-install/archive/refs/heads/main.zip
 unzip main.zip
-cd lv-install-main && unzip -d client client.zip && cd client && chmod 777 npc && ./npc install
+cd lv-install-main && unzip -d client client.zip && cd client && chmod 777 npc && ./npc install $m && npc start
 cd ../../ && rm -rf main.zip && rm -rf lv-install-main
 ;;
 4)
