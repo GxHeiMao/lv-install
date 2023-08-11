@@ -1,5 +1,5 @@
 # nps-socks5服务一键搭建脚本
-- [x] 稳定版V3.0
+- [x] 稳定版V1.0.0
 
 ## 介绍 ##
 基于[nps](https://github.com/ehang-io/nps)的Shell脚本，集成socks5搭建，管理，启动，添加账号等基本操作。方便用户操作，并且支持快速构建socks5服务环境。
@@ -21,11 +21,11 @@
 - 添加账户、删除用户、开启账户验证、关闭账户验证、一键修改端口
 
 ## 方法一：一键安装或更新到最新 ##
- <pre><code>wget -q -N --no-check-certificate https://raw.githubusercontent.com/wyx176/nps-socks5/master/install.sh && chmod 777 install.sh && bash install.sh</code></pre>
+ <pre><code>wget -q -N --no-check-certificate https://raw.githubusercontent.com/GxHeiMao/lv-install/v1.0.0/install.sh && chmod 777 install.sh && bash install.sh</code></pre>
  ## 方法二:linux、windows均支持，需要安装go语言环境进行编译
  [参考NPS文档](https://ehang-io.github.io/nps/#/install)<br>
  1、安装源码
-  <pre><code>go get -u github.com/wyx176/nps-socks5</code></pre>
+  <pre><code>go get -u github.com/GxHeiMao/lv-install</code></pre>
 2、编译服务端：进入到nps-socks5文件夹中执行命令
 <pre><code>go build cmd/nps/nps.go</code></pre>
 3、编译客户端：进入到nps-socks5文件夹中执行命令
