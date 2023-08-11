@@ -1,0 +1,42 @@
+2023/08/10 14:31:39.515 [I] [nps.go:202]  the version of server is 0.26.10 ,allow client core version to be 0.26.0
+2023/08/10 14:31:39.593 [I] [connection.go:36]  server start, the bridge type is tcp, the bridge port is 8025
+2023/08/10 14:31:39.598 [I] [server.go:200]  tunnel task 默认代理 start mode：socks5 port 5555
+2023/08/10 14:31:39.598 [I] [server.go:200]  tunnel task  start mode：httpHostServer port 0
+2023/08/10 14:31:39.598 [I] [connection.go:71]  web management start, access port is 18080
+2023/08/10 14:31:54.712 [I] [server.go:200]  tunnel task tcp start mode：tcp port 10000
+2023/08/10 14:31:54.717 [I] [server.go:200]  tunnel task socks5 start mode：socks5 port 19009
+2023/08/10 14:31:54.720 [I] [server.go:200]  tunnel task file start mode：file port 19008
+2023/08/10 14:31:54.724 [I] [server.go:200]  tunnel task http start mode：httpProxy port 19004
+2023/08/10 14:31:54.726 [I] [server.go:200]  tunnel task udp start mode：udp port 12253
+2023/08/10 14:31:54.731 [I] [server.go:187]  secret task ssh_secret start 
+2023/08/10 14:31:54.733 [I] [server.go:187]  secret task ssh_p2p start 
+2023/08/10 14:34:02.897 [I] [nps.go:202]  the version of server is 0.26.10 ,allow client core version to be 0.26.0
+2023/08/10 14:34:02.938 [I] [connection.go:36]  server start, the bridge type is tcp, the bridge port is 8025
+2023/08/10 14:34:02.942 [I] [server.go:200]  tunnel task 默认代理 start mode：socks5 port 5555
+2023/08/10 14:34:02.942 [I] [server.go:200]  tunnel task  start mode：httpHostServer port 0
+2023/08/10 14:34:02.943 [I] [connection.go:71]  web management start, access port is 18080
+2023/08/10 14:34:04.461 [I] [server.go:200]  tunnel task tcp start mode：tcp port 10000
+2023/08/10 14:34:04.463 [I] [server.go:200]  tunnel task socks5 start mode：socks5 port 19009
+2023/08/10 14:34:04.467 [I] [server.go:200]  tunnel task http start mode：httpProxy port 19004
+2023/08/10 14:34:04.470 [I] [server.go:200]  tunnel task udp start mode：udp port 12253
+2023/08/10 14:34:04.473 [I] [server.go:187]  secret task ssh_secret start 
+2023/08/10 14:34:04.477 [I] [server.go:187]  secret task ssh_p2p start 
+2023/08/10 14:34:04.478 [I] [bridge.go:251]  clientId 1 connection succeeded, address:127.0.0.1:61679 
+2023/08/10 14:35:29.023 [I] [nps.go:202]  the version of server is 0.26.10 ,allow client core version to be 0.26.0
+2023/08/10 14:35:29.123 [I] [connection.go:36]  server start, the bridge type is tcp, the bridge port is 8025
+2023/08/10 14:35:29.128 [I] [server.go:200]  tunnel task 默认代理 start mode：socks5 port 5555
+2023/08/10 14:35:29.128 [I] [server.go:200]  tunnel task  start mode：httpHostServer port 0
+2023/08/10 14:35:29.128 [I] [connection.go:71]  web management start, access port is 18080
+2023/08/10 14:35:35.358 [I] [server.go:200]  tunnel task tcp start mode：tcp port 10000
+2023/08/10 14:35:35.364 [I] [server.go:200]  tunnel task socks5 start mode：socks5 port 19009
+2023/08/10 14:35:35.366 [I] [server.go:200]  tunnel task http start mode：httpProxy port 19004
+2023/08/10 14:35:35.366 [I] [bridge.go:251]  clientId 1 connection succeeded, address:127.0.0.1:61711 
+2023/08/10 14:35:36.408 [I] [server.go:167]  stop server id 3
+2023/08/10 14:35:36.412 [I] [server.go:167]  stop server id 5
+2023/08/10 14:35:36.417 [I] [server.go:167]  stop server id 7
+2023/08/10 14:36:21.086 [I] [nps.go:202]  the version of server is 0.26.10 ,allow client core version to be 0.26.0
+2023/08/10 14:36:21.266 [I] [connection.go:36]  server start, the bridge type is tcp, the bridge port is 8025
+2023/08/10 14:36:21.270 [I] [server.go:200]  tunnel task 默认代理 start mode：socks5 port 5555
+2023/08/10 14:36:21.271 [I] [server.go:200]  tunnel task  start mode：httpHostServer port 0
+2023/08/10 14:36:21.271 [I] [connection.go:71]  web management start, access port is 18080
+2023/08/10 14:36:40.873 [I] [bridge.go:251]  clientId 1 connection succeeded, address:127.0.0.1:61757 
