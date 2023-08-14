@@ -1,7 +1,7 @@
 #!/bin/bash
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 webPort=18080
-errorMsg=反馈群t.me/Scoks55555
+errorMsg=success
 version=v1.0.0
 downLoadUrl=https://github.com/GxHeiMao/lv-install/releases/download/
 serverSoft=linux_amd64_server
@@ -281,7 +281,7 @@ if [[ $menuChoice == 1 ]];then
 	echo "--登录账号admin"
 	echo "--登录密码admin"
 	echo "默认socks5账号信息:账号socks5 密码socks5 端口5555"
-	echo "如需修改后台管理端口以及账号密码请看github"
+	echo "如需修改后台管理端口以及账号密码请联系客服"
 
 fi
 if [[ $menuChoice == 2 ]];then
